@@ -17,8 +17,8 @@ concurrency:
 
 jobs:
   track:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,18 +32,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Cloudflare WARP in Local Proxy Mode
+      - name: Start Userspace WARP Proxy (wgcf + wireproxy in 3s)
         run: |
-          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
-          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ noble main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
-          sudo apt-get update && sudo apt-get install -y cloudflare-warp
-          warp-cli --accept-tos registration new || true
-          warp-cli --accept-tos mode proxy
-          warp-cli --accept-tos proxy port 40000
-          warp-cli --accept-tos connect
-          for i in {1..15}; do
-            if curl -s -x socks5h://127.0.0.1:40000 https://www.cloudflare.com/cdn-cgi/trace/ | grep -q "warp=on"; then
-              echo "Cloudflare WARP SOCKS5 proxy ready on 127.0.0.1:40000!"
+          # Download tiny standalone binaries (no apt-get!)
+          curl -fsSL https://github.com/ViRb3/wgcf/releases/download/v2.2.22/wgcf_2.2.22_linux_amd64 -o wgcf
+          chmod +x wgcf
+          ./wgcf register --accept-tos
+          ./wgcf generate
+
+          curl -fsSL https://github.com/pufferffish/wireproxy/releases/download/v1.0.9/wireproxy_linux_amd64.tar.gz | tar -xz
+          chmod +x wireproxy
+
+          cat >> wgcf-profile.conf << 'EOF_CONF'
+
+          [Socks5]
+          BindAddress = 127.0.0.1:40000
+          EOF_CONF
+
+          ./wireproxy -c wgcf-profile.conf &
+          for i in {1..10}; do
+            if curl -s -x socks5h://127.0.0.1:40000 --max-time 3 https://www.cloudflare.com/cdn-cgi/trace/ | grep -q "warp=on"; then
+              echo "Fast Wireproxy SOCKS5 active in ${i}s!"
               break
             fi
             sleep 1
@@ -53,7 +62,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PROXY_URL: ${{ secrets.PROXY_URL || 'socks5://127.0.0.1:40000' }}
+          PROXY_URL: ${{ secrets.PROXY_URL || 'socks5h://127.0.0.1:40000' }}
         run: python main.py
 
       - name: Save updated state (bms_state.json)
