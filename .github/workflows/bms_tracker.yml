@@ -23,22 +23,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install and Connect Cloudflare WARP
-        run: |
-          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
-          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ noble main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
-          sudo apt-get update && sudo apt-get install -y cloudflare-warp
-          warp-cli --accept-tos registration new || true
-          warp-cli --accept-tos mode warp
-          warp-cli --accept-tos connect
-          for i in {1..10}; do
-            if curl -s https://www.cloudflare.com/cdn-cgi/trace/ | grep -q "warp=on"; then
-              echo "Cloudflare WARP connected!"
-              break
-            fi
-            sleep 2
-          done
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -48,11 +32,28 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Cloudflare WARP in Local Proxy Mode
+        run: |
+          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ noble main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+          sudo apt-get update && sudo apt-get install -y cloudflare-warp
+          warp-cli --accept-tos registration new || true
+          warp-cli --accept-tos mode proxy
+          warp-cli --accept-tos proxy port 40000
+          warp-cli --accept-tos connect
+          for i in {1..15}; do
+            if curl -s -x socks5h://127.0.0.1:40000 https://www.cloudflare.com/cdn-cgi/trace/ | grep -q "warp=on"; then
+              echo "Cloudflare WARP SOCKS5 proxy ready on 127.0.0.1:40000!"
+              break
+            fi
+            sleep 1
+          done
+
       - name: Run BMS Tracker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PROXY_URL: ${{ secrets.PROXY_URL }}
+          PROXY_URL: ${{ secrets.PROXY_URL || 'socks5://127.0.0.1:40000' }}
         run: python main.py
 
       - name: Save updated state (bms_state.json)
