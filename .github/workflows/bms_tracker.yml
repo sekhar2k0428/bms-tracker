@@ -30,15 +30,14 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip import -r requirements.txt || pip install -r requirements.txt
 
       - name: Start Userspace WARP Proxy (wgcf + wireproxy in 3s)
         run: |
-          # Download tiny standalone binaries (no apt-get!)
           curl -fsSL https://github.com/ViRb3/wgcf/releases/download/v2.2.22/wgcf_2.2.22_linux_amd64 -o wgcf
           chmod +x wgcf
-          ./wgcf register --accept-tos
-          ./wgcf generate
+          ./wgcf register --accept-tos || true
+          ./wgcf generate || true
 
           curl -fsSL https://github.com/pufferffish/wireproxy/releases/download/v1.0.9/wireproxy_linux_amd64.tar.gz | tar -xz
           chmod +x wireproxy
@@ -50,19 +49,13 @@ jobs:
           EOF_CONF
 
           ./wireproxy -c wgcf-profile.conf &
-          for i in {1..10}; do
-            if curl -s -x socks5h://127.0.0.1:40000 --max-time 3 https://www.cloudflare.com/cdn-cgi/trace/ | grep -q "warp=on"; then
-              echo "Fast Wireproxy SOCKS5 active in ${i}s!"
-              break
-            fi
-            sleep 1
-          done
+          sleep 2
 
       - name: Run BMS Tracker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          PROXY_URL: ${{ secrets.PROXY_URL || 'socks5h://127.0.0.1:40000' }}
+          PROXY_URL: 'socks5h://127.0.0.1:40000'
         run: python main.py
 
       - name: Save updated state (bms_state.json)
@@ -71,5 +64,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -f bms_state.json ]; then
             git add bms_state.json
-            git diff --staged --quiet || (git pull --rebase && git commit -m "chore: update bms_state.json [skip ci]" && git push)
+            git diff --staged --quiet || git commit -m "chore: update bms_state.json [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main || true
           fi
