@@ -1,0 +1,182 @@
+{
+  "appConfig": {
+    "ads": true,
+    "reserve": true,
+    "fnb": true,
+    "loginStrip": true,
+    "hamburgerMenu": true,
+    "comingSoon": true,
+    "searchCoach": true,
+    "locationCheck": true,
+    "posterCardClick": false,
+    "paymentLogin": true,
+    "expressPay": true,
+    "favourite": true,
+    "showMyProfileLink": true,
+    "bookASmileFlag": true,
+    "offers": true,
+    "winpin": true,
+    "appCode": "WEB",
+    "platformCode": "WEB",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "isCWCPage": false,
+    "deviceType": "desktop",
+    "isVerifiedBot": false,
+    "countryIP": "IN",
+    "featureBranch": "",
+    "bmsVPN": "",
+    "isServerIframeRequest": false,
+    "trueClientIp": "2401:4900:60dc:506f:d4bd:930d:3abf:c429"
+  },
+  "config": {},
+  "cookies": {
+    "bmsId": "1.218623354.1786531467361",
+    "rgn": {
+      "regionNameSlug": "hyderabad",
+      "regionCodeSlug": "hyd",
+      "regionName": "Hyderabad",
+      "regionCode": "HYD",
+      "subName": "",
+      "subCode": "",
+      "stateName": "Telangana",
+      "stateCode": "TG",
+      "Lat": "17.385044",
+      "Long": "78.486671",
+      "GeoHash": "tep",
+      "countryCode": "IN"
+    }
+  },
+  "seo": {
+    "queries": {},
+    "mutations": {},
+    "provided": {
+      "tags": {},
+      "keys": {}
+    },
+    "subscriptions": {},
+    "config": {
+      "online": true,
+      "focused": true,
+      "middlewareRegistered": false,
+      "refetchOnFocus": false,
+      "refetchOnReconnect": false,
+      "refetchOnMountOrArgChange": false,
+      "keepUnusedDataFor": 600,
+      "reducerPath": "seo",
+      "invalidationBehavior": "delayed"
+    }
+  },
+  "withDesktopLayout": {
+    "signInCallback": null,
+    "signOutCallback": null,
+    "regionChangeCallback": null,
+    "pageName": "all",
+    "setSidebarOpen": null
+  },
+  "settings": {
+    "isFetching": false,
+    "isError": false,
+    "isSuccess": false,
+    "values": {}
+  },
+  "appPromotionReducer": {
+    "isAppPromotionDeferredEventAvailable": false,
+    "pwaInstallStatus": false,
+    "displayMode": null,
+    "isPwaCustomInstallSupported": false
+  },
+  "youtube": {
+    "isAPIloaded": false,
+    "currentPlayingVideoID": "",
+    "canPauseAllVideos": false
+  },
+  "loginApi": {
+    "queries": {},
+    "mutations": {},
+    "provided": {
+      "tags": {},
+      "keys": {}
+    },
+    "subscriptions": {},
+    "config": {
+      "online": true,
+      "focused": true,
+      "middlewareRegistered": false,
+      "refetchOnFocus": false,
+      "refetchOnReconnect": false,
+      "refetchOnMountOrArgChange": false,
+      "keepUnusedDataFor": 0,
+      "reducerPath": "loginApi",
+      "invalidationBehavior": "delayed"
+    }
+  },
+  "editProfileApi": {
+    "queries": {},
+    "mutations": {},
+    "provided": {
+      "tags": {},
+      "keys": {}
+    },
+    "subscriptions": {},
+    "config": {
+      "online": true,
+      "focused": true,
+      "middlewareRegistered": false,
+      "refetchOnFocus": false,
+      "refetchOnReconnect": false,
+      "refetchOnMountOrArgChange": false,
+      "keepUnusedDataFor": 0,
+      "reducerPath": "editProfileApi",
+      "invalidationBehavior": "delayed"
+    }
+  },
+  "headerApi": {
+    "queries": {},
+    "mutations": {},
+    "provided": {
+      "tags": {},
+      "keys": {}
+    },
+    "subscriptions": {},
+    "config": {
+      "online": true,
+      "focused": true,
+      "middlewareRegistered": false,
+      "refetchOnFocus": false,
+      "refetchOnReconnect": false,
+      "refetchOnMountOrArgChange": false,
+      "keepUnusedDataFor": 60,
+      "reducerPath": "headerApi",
+      "invalidationBehavior": "delayed"
+    }
+  },
+  "sidebarApi": {
+    "queries": {},
+    "mutations": {},
+    "provided": {
+      "tags": {},
+      "keys": {}
+    },
+    "subscriptions": {},
+    "config": {
+      "online": true,
+      "focused": true,
+      "middlewareRegistered": false,
+      "refetchOnFocus": false,
+      "refetchOnReconnect": false,
+      "refetchOnMountOrArgChange": false,
+      "keepUnusedDataFor": 60,
+      "reducerPath": "sidebarApi",
+      "invalidationBehavior": "delayed"
+    }
+  },
+  "regions": {
+    "isFetching": false,
+    "isFirstLoad": true,
+    "isError": false,
+    "currentRegion": null,
+    "geoLocationErrorMessage": null,
+    "isFetchingLocation": false,
+    "searchKey": ""
+  }
+}

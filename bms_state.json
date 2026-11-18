@@ -1,0 +1,313 @@
+{
+  "f42609ff45": {
+    "shows": {
+      "AMB Cinemas: Gachibowli|20261217|122551|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:15 AM",
+        "date": "20261217",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261217|122551|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:15 AM",
+        "date": "20261217",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261217|122551|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:15 AM",
+        "date": "20261217",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261217|122554|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261217",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261217|122554|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261217",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261217|122554|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261217",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122559|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122559|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "1"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122559|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "2"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122560|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122560|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122560|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "1"
+      },
+      "AMB Cinemas: Gachibowli|20261219|122563|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261219",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261219|122563|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261219",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "1"
+      },
+      "AMB Cinemas: Gachibowli|20261219|122563|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261219",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261219|122564|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261219",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261219|122564|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261219",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "1"
+      },
+      "AMB Cinemas: Gachibowli|20261219|122564|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261219",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "2"
+      },
+      "AMB Cinemas: Gachibowli|20261220|122567|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261220",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261220|122567|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261220",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "1"
+      },
+      "AMB Cinemas: Gachibowli|20261220|122567|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "10:05 AM",
+        "date": "20261220",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "2"
+      },
+      "AMB Cinemas: Gachibowli|20261220|122568|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261220",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261220|122568|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261220",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "1"
+      },
+      "AMB Cinemas: Gachibowli|20261220|122568|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "07:40 PM",
+        "date": "20261220",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "3"
+      }
+    },
+    "dates": {
+      "20261217": "AVAILABLE",
+      "20261218": "AVAILABLE",
+      "20261219": "AVAILABLE",
+      "20261220": "BOOKABLE",
+      "20261221": "NOT_OPEN",
+      "20261222": "NOT_OPEN",
+      "20261223": "NOT_OPEN"
+    },
+    "initialized": true
+  },
+  "e50721a91a": {
+    "shows": {},
+    "dates": {
+      "20261217": "AVAILABLE",
+      "20261218": "AVAILABLE",
+      "20261219": "AVAILABLE",
+      "20261220": "BOOKABLE",
+      "20261221": "NOT_OPEN",
+      "20261222": "NOT_OPEN",
+      "20261223": "NOT_OPEN"
+    },
+    "initialized": true
+  },
+  "a008334ebb": {
+    "shows": {
+      "Prasads Multiplex: Hyderabad|20261217|259079| EXECUTIVE + 3D Glass": {
+        "venue": "Prasads Multiplex: Hyderabad",
+        "time": "08:00 AM",
+        "date": "20261217",
+        "screen": "Infinity Vision 3D",
+        "cat": " EXECUTIVE + 3D Glass",
+        "price": "325.00",
+        "status": "0"
+      },
+      "Prasads Multiplex: Hyderabad|20261217|259080| EXECUTIVE + 3D Glass": {
+        "venue": "Prasads Multiplex: Hyderabad",
+        "time": "11:05 AM",
+        "date": "20261217",
+        "screen": "Infinity Vision 3D",
+        "cat": " EXECUTIVE + 3D Glass",
+        "price": "325.00",
+        "status": "0"
+      },
+      "Prasads Multiplex: Hyderabad|20261217|259081| EXECUTIVE + 3D Glass": {
+        "venue": "Prasads Multiplex: Hyderabad",
+        "time": "02:10 PM",
+        "date": "20261217",
+        "screen": "Infinity Vision 3D",
+        "cat": " EXECUTIVE + 3D Glass",
+        "price": "325.00",
+        "status": "1"
+      },
+      "Prasads Multiplex: Hyderabad|20261217|259082| EXECUTIVE + 3D Glass": {
+        "venue": "Prasads Multiplex: Hyderabad",
+        "time": "05:15 PM",
+        "date": "20261217",
+        "screen": "Infinity Vision 3D",
+        "cat": " EXECUTIVE + 3D Glass",
+        "price": "325.00",
+        "status": "1"
+      },
+      "Prasads Multiplex: Hyderabad|20261217|259083| EXECUTIVE + 3D Glass": {
+        "venue": "Prasads Multiplex: Hyderabad",
+        "time": "08:20 PM",
+        "date": "20261217",
+        "screen": "Infinity Vision 3D",
+        "cat": " EXECUTIVE + 3D Glass",
+        "price": "325.00",
+        "status": "1"
+      },
+      "Prasads Multiplex: Hyderabad|20261217|259084| EXECUTIVE + 3D Glass": {
+        "venue": "Prasads Multiplex: Hyderabad",
+        "time": "11:25 PM",
+        "date": "20261217",
+        "screen": "Infinity Vision 3D",
+        "cat": " EXECUTIVE + 3D Glass",
+        "price": "325.00",
+        "status": "1"
+      }
+    },
+    "dates": {
+      "20261217": "AVAILABLE",
+      "20261218": "AVAILABLE",
+      "20261219": "AVAILABLE",
+      "20261220": "BOOKABLE",
+      "20261221": "NOT_OPEN",
+      "20261222": "NOT_OPEN",
+      "20261223": "NOT_OPEN"
+    },
+    "initialized": true
+  }
+}

@@ -1,0 +1,54 @@
+name: BMS Ticket Tracker
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes (fastest allowed by GitHub)
+  workflow_dispatch:       # Manual "Run workflow" button
+  push:
+    paths:
+      - 'watches.json'     # Runs automatically whenever you edit watches.json on GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bms-tracker-state
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Cloudflare WARP (Bypass Azure Datacenter ASN Block)
+        uses: cloudflare/warp-action@v1
+        with:
+          version: latest
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run BMS Tracker
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+        run: python main.py
+
+      - name: Save updated state (bms_state.json)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f bms_state.json ]; then
+            git add bms_state.json
+            git diff --staged --quiet || (git pull --rebase && git commit -m "chore: update bms_state.json [skip ci]" && git push)
+          fi

@@ -1,0 +1,188 @@
+{
+  "data": {
+    "meta": {
+      "version": 23
+    },
+    "eventData": {
+      "eventCensor": "UA16+",
+      "eventTitle": "Vishwanath and Sons",
+      "eventLang": "Telugu",
+      "eventName": "Vishwanath and Sons (HDR By Barco)(Telugu) - Telugu",
+      "eventCode": "ET00511463",
+      "eventDimension": "HDR By Barco",
+      "eventUrl": "vishwanath-and-sons-hdr-by-barcotelugu",
+      "eventGroup": "EG00487149"
+    },
+    "venue": {
+      "compCode": "ASMB",
+      "couponIsAllowed": true,
+      "isFoodSales": "Y",
+      "isFullLayout": "Y",
+      "message": "<font color=#ff0000><strong>``Accessibility Information:\nAs per the Ministry of Information and Broadcasting (MIB) advisory, accessibility features such as Audio Description (AD), Closed Captions (CC), Same Language Captioning (SLC), and Indian Sign Language (ISL) may not be available for all movies or shows. Where these features are available, they will be indicated on the movie synopsis page.``</strong></font><br>Cinema reserves the right to cancel or modify showtimes without prior notice due to low occupancy, technical issues, or other operational reasons.<br>1. Admission is at managements discretion.<br>\n2. Tickets are required for children 3 years and older.<br>\n3. No entry for those under 18 years for A-rated movies.<br>\n4. Schedules and rates may change without notice.<br>\n5. Collect pre-ordered food & drinks from F&B counters.<br>\n6. Bags, food, helmets, and handbags are not allowed; use the baggage counter.<br>\n7. 3D ticket prices include glasses rental.<br>\n8. No outside food or drinks allowed.<br>\n9. Management decisions are final.<br>\n10. Only messages from online booking partners are accepted.<br>\n11. No printed or forwarded messages for tickets or F&B.<br>\n12. No entry for patrons under the influence of alcohol or drugs.<br>\n13. Arrive 20 minutes early to avoid traffic.",
+      "messageType": "AC",
+      "messageTitle": "Terms & Conditions",
+      "popUpDescription": "",
+      "showSeatNo": "Y",
+      "venueApp": "VS",
+      "venueCode": "AMBH",
+      "venueLegends": ";WC;CAR;FOD;",
+      "venueName": "AMB Cinemas: Gachibowli",
+      "mTicket": "Y",
+      "coupleSeats": false
+    },
+    "showTimes": [
+      {
+        "sessionId": "116250",
+        "styleId": "orange-pill-with-border",
+        "availStatus": "2",
+        "cutOffDateTime": "202608141100",
+        "cutOffDateTimeEpoch": "1786705200",
+        "showDateCode": "20260814",
+        "showDateTime": "202608141015",
+        "showTimeCode": "1015",
+        "showTime": "10:15 AM",
+        "attributes": "HDR BY BARCO",
+        "categories": [
+          {
+            "priceCode": "0001",
+            "curPrice": "350.00",
+            "areaCatCode": "0000000001",
+            "availStatus": "0",
+            "seatLayout": true,
+            "priceDesc": "PLATINUM",
+            "categoryRange": ""
+          },
+          {
+            "priceCode": "0002",
+            "curPrice": "295.00",
+            "areaCatCode": "0000000002",
+            "availStatus": "2",
+            "seatLayout": true,
+            "priceDesc": "GOLD",
+            "categoryRange": "1|2|3|4|5|6"
+          },
+          {
+            "priceCode": "0003",
+            "curPrice": "295.00",
+            "areaCatCode": "0000000003",
+            "availStatus": "1",
+            "seatLayout": true,
+            "priceDesc": "LOUNGERS",
+            "categoryRange": "1"
+          }
+        ],
+        "categoryRange": "1|2|3|4|5|6",
+        "seatSelectorKey": "AMBH_116250",
+        "showCutOffBottomSheet": false,
+        "seatLegendIds": [
+          "1",
+          "88",
+          "2"
+        ]
+      },
+      {
+        "sessionId": "116347",
+        "styleId": "orange-pill-with-border",
+        "availStatus": "2",
+        "cutOffDateTime": "202608141715",
+        "cutOffDateTimeEpoch": "1786727700",
+        "showDateCode": "20260814",
+        "showDateTime": "202608141630",
+        "showTimeCode": "1630",
+        "showTime": "04:30 PM",
+        "attributes": "HDR BY BARCO",
+        "categories": [
+          {
+            "priceCode": "0001",
+            "curPrice": "350.00",
+            "areaCatCode": "0000000001",
+            "availStatus": "0",
+            "seatLayout": true,
+            "priceDesc": "PLATINUM",
+            "categoryRange": ""
+          },
+          {
+            "priceCode": "0002",
+            "curPrice": "295.00",
+            "areaCatCode": "0000000002",
+            "availStatus": "2",
+            "seatLayout": true,
+            "priceDesc": "GOLD",
+            "categoryRange": "1|2|3|4|5|6"
+          },
+          {
+            "priceCode": "0003",
+            "curPrice": "295.00",
+            "areaCatCode": "0000000003",
+            "availStatus": "3",
+            "seatLayout": true,
+            "priceDesc": "LOUNGERS",
+            "categoryRange": "1|2|3|4|5|6"
+          }
+        ],
+        "categoryRange": "1|2|3|4|5|6",
+        "seatSelectorKey": "AMBH_116347",
+        "showCutOffBottomSheet": false,
+        "seatLegendIds": [
+          "1",
+          "88",
+          "2"
+        ]
+      },
+      {
+        "sessionId": "116349",
+        "styleId": "orange-pill-with-border",
+        "availStatus": "1",
+        "cutOffDateTime": "202608142335",
+        "cutOffDateTimeEpoch": "1786750500",
+        "showDateCode": "20260814",
+        "showDateTime": "202608142250",
+        "showTimeCode": "2250",
+        "showTime": "10:50 PM",
+        "attributes": "HDR BY BARCO",
+        "categories": [
+          {
+            "priceCode": "0001",
+            "curPrice": "350.00",
+            "areaCatCode": "0000000001",
+            "availStatus": "0",
+            "seatLayout": true,
+            "priceDesc": "PLATINUM",
+            "categoryRange": ""
+          },
+          {
+            "priceCode": "0002",
+            "curPrice": "295.00",
+            "areaCatCode": "0000000002",
+            "availStatus": "1",
+            "seatLayout": true,
+            "priceDesc": "GOLD",
+            "categoryRange": "1|2|3|4|5|6"
+          },
+          {
+            "priceCode": "0003",
+            "curPrice": "295.00",
+            "areaCatCode": "0000000003",
+            "availStatus": "1",
+            "seatLayout": true,
+            "priceDesc": "LOUNGERS",
+            "categoryRange": "1"
+          }
+        ],
+        "categoryRange": "1|2|3|4|5|6",
+        "seatSelectorKey": "AMBH_116349",
+        "showCutOffBottomSheet": false,
+        "seatLegendIds": [
+          "1",
+          "88",
+          "2"
+        ]
+      }
+    ],
+    "additionalData": {
+      "showPriceWithoutDecimal": true,
+      "showProceedButton": false,
+      "enableSocialNudgeFeature": false
+    }
+  }
+}
