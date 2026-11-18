@@ -107,7 +107,7 @@
         "screen": "HDR BY BARCO",
         "cat": "LOUNGERS",
         "price": "295.00",
-        "status": "1"
+        "status": "0"
       },
       "AMB Cinemas: Gachibowli|20261219|122563|PLATINUM": {
         "venue": "AMB Cinemas: Gachibowli",
@@ -152,7 +152,7 @@
         "screen": "HDR BY BARCO",
         "cat": "GOLD",
         "price": "295.00",
-        "status": "1"
+        "status": "0"
       },
       "AMB Cinemas: Gachibowli|20261219|122564|LOUNGERS": {
         "venue": "AMB Cinemas: Gachibowli",
@@ -215,7 +215,7 @@
         "screen": "HDR BY BARCO",
         "cat": "LOUNGERS",
         "price": "295.00",
-        "status": "2"
+        "status": "1"
       }
     },
     "dates": {
