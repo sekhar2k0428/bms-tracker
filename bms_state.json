@@ -82,6 +82,33 @@
         "price": "295.00",
         "status": "0"
       },
+      "AMB Cinemas: Gachibowli|20261218|122678|PLATINUM": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "01:15 PM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "PLATINUM",
+        "price": "350.00",
+        "status": "0"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122678|GOLD": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "01:15 PM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "GOLD",
+        "price": "295.00",
+        "status": "2"
+      },
+      "AMB Cinemas: Gachibowli|20261218|122678|LOUNGERS": {
+        "venue": "AMB Cinemas: Gachibowli",
+        "time": "01:15 PM",
+        "date": "20261218",
+        "screen": "HDR BY BARCO",
+        "cat": "LOUNGERS",
+        "price": "295.00",
+        "status": "3"
+      },
       "AMB Cinemas: Gachibowli|20261218|122560|PLATINUM": {
         "venue": "AMB Cinemas: Gachibowli",
         "time": "07:40 PM",
