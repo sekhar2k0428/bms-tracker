@@ -360,7 +360,8 @@
       "20261220": "BOOKABLE",
       "20261221": "NOT_OPEN",
       "20261222": "NOT_OPEN",
-      "20261223": "NOT_OPEN"
+      "20261223": "NOT_OPEN",
+      "20261224": "NOT_OPEN"
     },
     "initialized": true
   },
@@ -373,139 +374,13 @@
       "20261220": "BOOKABLE",
       "20261221": "NOT_OPEN",
       "20261222": "NOT_OPEN",
-      "20261223": "NOT_OPEN"
+      "20261223": "NOT_OPEN",
+      "20261224": "NOT_OPEN"
     },
     "initialized": true
   },
   "a008334ebb": {
-    "shows": {
-      "Prasads Multiplex: Hyderabad|20261217|259079| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259278| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259352| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "10:55 AM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259080| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "11:05 AM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259081| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "02:10 PM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259082| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "05:15 PM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259083| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:20 PM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261217|259084| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "11:25 PM",
-        "date": "20261217",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "0"
-      },
-      "Prasads Multiplex: Hyderabad|20261218|259256|GOLD + 3D GlassL": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261218",
-        "screen": "Infinity Vision 3D/PCX Screen",
-        "cat": "GOLD + 3D GlassL",
-        "price": "400.00",
-        "status": "2"
-      },
-      "Prasads Multiplex: Hyderabad|20261218|259477| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261218",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "1"
-      },
-      "Prasads Multiplex: Hyderabad|20261219|259424|GOLD + 3D GlassL": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261219",
-        "screen": "Infinity Vision 3D/PCX Screen",
-        "cat": "GOLD + 3D GlassL",
-        "price": "400.00",
-        "status": "1"
-      },
-      "Prasads Multiplex: Hyderabad|20261219|259478| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261219",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "1"
-      },
-      "Prasads Multiplex: Hyderabad|20261220|259430|GOLD + 3D GlassL": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261220",
-        "screen": "Infinity Vision 3D/PCX Screen",
-        "cat": "GOLD + 3D GlassL",
-        "price": "400.00",
-        "status": "1"
-      },
-      "Prasads Multiplex: Hyderabad|20261220|259479| EXECUTIVE + 3D Glass": {
-        "venue": "Prasads Multiplex: Hyderabad",
-        "time": "08:00 AM",
-        "date": "20261220",
-        "screen": "Infinity Vision 3D",
-        "cat": " EXECUTIVE + 3D Glass",
-        "price": "325.00",
-        "status": "2"
-      }
-    },
+    "shows": {},
     "dates": {
       "20261217": "AVAILABLE",
       "20261218": "AVAILABLE",
@@ -513,7 +388,8 @@
       "20261220": "BOOKABLE",
       "20261221": "NOT_OPEN",
       "20261222": "NOT_OPEN",
-      "20261223": "NOT_OPEN"
+      "20261223": "NOT_OPEN",
+      "20261224": "NOT_OPEN"
     },
     "initialized": true
   }
