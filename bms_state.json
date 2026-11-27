@@ -360,7 +360,8 @@
       "20261220": "AVAILABLE",
       "20261221": "AVAILABLE",
       "20261222": "AVAILABLE",
-      "20261223": "BOOKABLE"
+      "20261223": "BOOKABLE",
+      "20261224": "NOT_OPEN"
     },
     "initialized": true
   },
@@ -373,7 +374,8 @@
       "20261220": "AVAILABLE",
       "20261221": "AVAILABLE",
       "20261222": "AVAILABLE",
-      "20261223": "BOOKABLE"
+      "20261223": "BOOKABLE",
+      "20261224": "NOT_OPEN"
     },
     "initialized": true
   },
@@ -540,7 +542,8 @@
       "20261220": "AVAILABLE",
       "20261221": "AVAILABLE",
       "20261222": "AVAILABLE",
-      "20261223": "BOOKABLE"
+      "20261223": "BOOKABLE",
+      "20261224": "NOT_OPEN"
     },
     "initialized": true
   }
