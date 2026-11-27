@@ -98,7 +98,7 @@
         "screen": "HDR BY BARCO",
         "cat": "GOLD",
         "price": "295.00",
-        "status": "0"
+        "status": "1"
       },
       "AMB Cinemas: Gachibowli|20261217|122554|LOUNGERS": {
         "venue": "AMB Cinemas: Gachibowli",
@@ -476,7 +476,7 @@
         "screen": "Infinity Vision 3D/PCX Screen",
         "cat": "GOLD + 3D GlassL",
         "price": "400.00",
-        "status": "1"
+        "status": "0"
       },
       "Prasads Multiplex: Hyderabad|20261219|259478| EXECUTIVE + 3D Glass": {
         "venue": "Prasads Multiplex: Hyderabad",
