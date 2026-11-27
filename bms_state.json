@@ -356,12 +356,11 @@
     "dates": {
       "20261217": "AVAILABLE",
       "20261218": "AVAILABLE",
-      "20261219": "AVAILABLE",
-      "20261220": "BOOKABLE",
+      "20261219": "BOOKABLE",
+      "20261220": "AVAILABLE",
       "20261221": "AVAILABLE",
       "20261222": "AVAILABLE",
-      "20261223": "BOOKABLE",
-      "20261224": "NOT_OPEN"
+      "20261223": "BOOKABLE"
     },
     "initialized": true
   },
@@ -370,12 +369,11 @@
     "dates": {
       "20261217": "AVAILABLE",
       "20261218": "AVAILABLE",
-      "20261219": "AVAILABLE",
-      "20261220": "BOOKABLE",
+      "20261219": "BOOKABLE",
+      "20261220": "AVAILABLE",
       "20261221": "AVAILABLE",
       "20261222": "AVAILABLE",
-      "20261223": "BOOKABLE",
-      "20261224": "NOT_OPEN"
+      "20261223": "BOOKABLE"
     },
     "initialized": true
   },
@@ -538,12 +536,11 @@
     "dates": {
       "20261217": "AVAILABLE",
       "20261218": "AVAILABLE",
-      "20261219": "AVAILABLE",
-      "20261220": "BOOKABLE",
+      "20261219": "BOOKABLE",
+      "20261220": "AVAILABLE",
       "20261221": "AVAILABLE",
       "20261222": "AVAILABLE",
-      "20261223": "BOOKABLE",
-      "20261224": "NOT_OPEN"
+      "20261223": "BOOKABLE"
     },
     "initialized": true
   }
